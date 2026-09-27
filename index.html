@@ -6,7 +6,7 @@
 
   <title>Pesqueira Gamez, Manuel Angel · Portafolio</title>
   <meta name="description" content="Portafolio de Pesqueira Gamez, Manuel Angel — Aplicaciones Web, Django + MySQL + Tailwind + Render.">
-  <link rel="icon" href="data:,">
+  <link rel="icon" type="image/png" href="monograma.png">
 
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -69,37 +69,65 @@
   </header>
 
   <!-- ===================== HERO ===================== -->
-  <section id="inicio" class="relative overflow-hidden bg-ink">
-    <div class="absolute inset-0 bg-gradient-to-br from-brand-900 via-ink to-slate-900"></div>
-    <div class="absolute -top-24 -right-24 h-96 w-96 rounded-full bg-brand-600/30 blur-3xl"></div>
+<section id="inicio" class="relative overflow-hidden bg-ink">
+
+  <!-- Fondo -->
+  <div class="absolute inset-0 bg-gradient-to-br from-brand-900 via-ink to-slate-900"></div>
+
+  <!-- Brillo -->
+  <div class="absolute -top-24 -right-24 h-96 w-96 rounded-full bg-brand-600/30 blur-3xl"></div>
+
+<!-- Monograma decorativo -->
+<img 
+  src="monograma.png"
+  alt=""
+  aria-hidden="true"
+  class="absolute right-12 top-1/2 -translate-y-1/2 w-[1200px] opacity-20 brightness-0 invert pointer-events-none select-none"
+/>
+
+  <!-- Contenido -->
+  <div id="datos-alumno" class="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24">
     
-    <div id="datos-alumno" class="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24">
-      <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6">
+    <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6">
 
-        <div class="h-48 w-48 rounded-full overflow-hidden bg-brand-600 flex-none border-4 border-white shadow-lg">
-          <img 
-            src="manuel.png" 
-            alt="Foto de frente de Manuel Gamez"
-            class="h-full w-full object-cover"
-          >
-        </div>
-
-        <div class="text-center sm:text-left">
-          <p class="text-brand-300 text-xs font-semibold uppercase tracking-wide">Portafolio · Aplicaciones Web</p>
-          <h1 class="text-3xl sm:text-4xl font-extrabold text-white mt-1">Pesqueira Gamez, Manuel Angel</h1>
-          <p class="text-slate-300 mt-2">Matrícula: <span class="text-white font-semibold">23311031</span> · Grupo: <span class="text-white font-semibold">DSM4-2</span></p>
-          <p class="mt-4 text-slate-300 max-w-xl">Estudiante de Ingeniería en Desarrollo de Software en la Universidad Tecnológica de Hermosillo.</p>
-
-          <div class="mt-6 flex flex-wrap justify-center sm:justify-start gap-3">
-            <a href="https://github.com/pesqueiragamezmanuelangel" target="_blank" rel="noreferrer noopener" class="rounded-lg bg-white text-ink font-semibold px-4 py-2 text-sm hover:bg-slate-100 transition">GitHub</a>
-            <a href="https://www.linkedin.com/in/manuel-pesqueira-gamez/" target="_blank" rel="noreferrer noopener" class="rounded-lg bg-white/10 text-white font-semibold px-4 py-2 text-sm border border-white/20 hover:bg-white/20 transition">LinkedIn</a>
-            <a href="#entregas" class="rounded-lg bg-brand-600 text-white font-semibold px-4 py-2 text-sm hover:bg-brand-500 transition">Ver mis entregas →</a>
-          </div>
-        </div>
-
+      <!-- Foto -->
+      <div class="h-48 w-48 rounded-full overflow-hidden bg-brand-600 flex-none border-4 border-white shadow-lg">
+        <img 
+          src="manuel.png" 
+          alt="Foto de frente de Manuel Gamez"
+          class="h-full w-full object-cover"
+        >
       </div>
+
+      <!-- Información -->
+      <div class="text-center sm:text-left">
+        <p class="text-brand-300 text-xs font-semibold uppercase tracking-wide">
+          Portafolio · Aplicaciones Web
+        </p>
+
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-white mt-1">
+          Pesqueira Gamez, Manuel Angel
+        </h1>
+
+        <p class="text-slate-300 mt-2">
+          Matrícula:
+          <span class="text-white font-semibold">23311031</span>
+          · Grupo:
+          <span class="text-white font-semibold">DSM4-2</span>
+        </p>
+
+        <p class="mt-4 text-slate-300 max-w-xl">
+          Estudiante de Ingeniería en Desarrollo de Software en la Universidad Tecnológica de Hermosillo.
+        </p>
+
+        <div class="mt-6 flex flex-wrap justify-center sm:justify-start gap-3">
+          ...
+        </div>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- ===================== SOBRE MÍ ===================== -->
   <section id="sobre-mi" class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -168,8 +196,8 @@
     </div>
 
     <div class="mt-6">
-      <a href="https://apweb.sistemasprado.xyz/[URL-UNIDAD-4]" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-lg bg-brand-600 hover:bg-brand-700 text-white font-semibold px-5 py-3 text-sm transition">
-        Ver proyecto en vivo →
+      <a href="" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-lg bg-brand-600 hover:bg-brand-700 text-white font-semibold px-5 py-3 text-sm transition">
+        Ver proyecto en vivo → (En construcción)
       </a>
     </div>
   </section>
